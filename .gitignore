@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.claude/tmp
+.claude/settings.local.json
+.playwright-mcp
+.superpowers/
+.DS_Store
+Thumbs.db

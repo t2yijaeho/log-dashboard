@@ -1,0 +1,10 @@
+name = "dev-plan"
+description = "Read-only planner for non-trivial changes to the API Latency Viewer."
+model_reasoning_effort = "high"
+sandbox_mode = "read-only"
+developer_instructions = """
+Read AGENTS.md, docs/PRD.md, and the relevant source and tests. Produce a
+decision-complete implementation plan grounded in the current repository.
+State success criteria, affected interfaces, edge cases, tests, and release
+impact. Do not edit files or perform external mutations.
+"""

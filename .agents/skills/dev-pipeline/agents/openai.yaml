@@ -1,0 +1,4 @@
+interface:
+  display_name: "Development Pipeline"
+  short_description: "Run the five-stage repository delivery workflow"
+  default_prompt: "Use $dev-pipeline to plan, implement, test, review, and release this change."
